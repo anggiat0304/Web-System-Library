@@ -1,0 +1,41 @@
+.main-page {
+  display: flex;
+}
+.sidebar {
+  width: 300px;
+  background: #04AA6D;
+  text-align: start;
+  height: 100vh;
+  margin-right: 20px;
+  position: relative;
+  margin-top: 40px;
+}
+.title {
+  padding: 30px;
+  color: white;
+  font-size: 15px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  border-bottom: 3px;
+}
+.item :hover {
+  background-color: #ffff;
+  font-size: 15px;
+  color: #04AA6D;
+}
+.btn-logout {
+  width: 100%;
+  padding: 20px;
+  background-color: rgb(11, 99, 64);
+  border: none;
+  letter-spacing: 3px;
+  font-size: 20px;
+  text-transform: uppercase;
+  color: black;
+  font-weight: bold;
+}
+.main-content{
+  margin-top: 40px;
+}
+.page{
+  margin-top: 70px;
+}

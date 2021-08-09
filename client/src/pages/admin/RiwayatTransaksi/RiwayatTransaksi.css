@@ -1,0 +1,38 @@
+.header-tabs{
+    display: flex;
+}
+.header-tabs div{
+    margin-top: 30px;
+}
+.header-tabs .item1{
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 24px;
+    cursor: pointer;
+}
+.header-tabs .item2{
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 24px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.header-tabs .item3{
+    color: black;
+    margin-left: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 24px;
+    cursor: pointer;
+}
+ #item1:active{
+    border-bottom: inset 3px;
+    color: #04AA6D;
+}
+ #item2:active{
+    border-bottom: inset 3px;
+    color: #04AA6D;
+}
+ #item3:active{
+    border-bottom: inset 3px;
+    color: #04AA6D;
+}

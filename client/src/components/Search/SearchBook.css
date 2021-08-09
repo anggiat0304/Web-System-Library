@@ -1,0 +1,39 @@
+.search-book{
+    width: 63%;
+    margin-top: 10px;
+    position: absolute;
+}
+.search-book input {
+    margin-right: 5px;
+    width: 90%;
+    border-radius: 10px;
+    padding:20px 0px 20px 0px;
+}
+.search-book button {
+    margin-right: 5px;
+    background-color: #04AA6D;
+    cursor: pointer;
+    border: none;
+    padding:10px 20px 10px 20px;
+}
+.search-book button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+.search-book input:focus {
+    border: 1px solid #3e8e41;
+    box-shadow: 0 0 3px #3e8e41;
+    outline-offset: 0px;
+    outline: none;
+}
+.result{
+    display: flex;
+    width: 90%;
+    background-color: white;
+    justify-content: space-between;
+    padding: 10px;
+    border: outset 0px;
+    position: sticky;
+    
+}

@@ -1,0 +1,17 @@
+.Navbar {
+  background: linear-gradient(120deg, #2980b9, #8e44ad, #8e44ad);
+  display: flex;
+  justify-content: space-between;
+  padding: 0px;
+}
+
+.Navbar h1 {
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+}
+.menu-items {
+  color: white;
+  text-decoration: none;
+  margin-right: 40px;
+  margin-top: 40px;
+}

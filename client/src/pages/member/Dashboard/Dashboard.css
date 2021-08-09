@@ -1,0 +1,9 @@
+.content-main-member {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+.content-main-member .items {
+  margin: 50px;
+}

@@ -1,0 +1,44 @@
+.addbook-form {
+  display: flex;
+}
+.first {
+  margin: 10px;
+}
+.second {
+  margin: 10px;
+}
+.input {
+  padding: 5px;
+  border-color: #04AA6D;
+  border-radius: 5px;
+  width: 250px;
+  height: 50px;
+}
+.text-area {
+  padding: 5px;
+  border-color: #04AA6D;
+  border-radius: 5px;
+  width: 250px;
+  height: 150px;
+}
+.btn-add {
+  width: 100%;
+  padding: 5px;
+  text-transform: uppercase;
+  background-color: #04AA6D;
+  border: none;
+  height: 50px;
+  letter-spacing: 2px;
+  cursor: pointer;
+}
+.btn-add :hover {
+  width: 100%;
+  padding: 5px;
+  text-transform: uppercase;
+  background-color: blue;
+  border: none;
+  height: 50px;
+  color: white;
+  cursor: pointer;
+  letter-spacing: 2px;
+}

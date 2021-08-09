@@ -1,0 +1,35 @@
+.perpanjangan {
+  width: 100%;
+  background-color: rgb(243, 250, 250);
+  padding-bottom: 10px;
+}
+.perpanjangan .titlePerpanjangan {
+  font-size: 30px;
+  background-color: #04AA6D;
+  font-family: cursive;
+  padding: 30px;
+  color: white;
+}
+.perpanjangan input {
+  width: 90%;
+  height: 50px;
+  margin-top: 10px;
+  border-radius: 10px;
+  border-color: #04AA6D;
+  padding: 5px;
+  outline: none;
+}
+.perpanjangan button {
+  width: 50%;
+  background: #04AA6D;
+  padding: 5px;
+  margin-top: 5px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  height: 50px;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+  border: none;
+  border-radius: 10px;
+}

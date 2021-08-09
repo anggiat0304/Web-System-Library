@@ -1,0 +1,73 @@
+.main-app {
+  /* background: linear-gradient(120deg, #2980b9, #8e44ad, #8e44ad); */
+  font-family: Arial, Helvetica, sans-serif;
+  height: 100vh;
+  overflow: hidden;
+}
+.form-register {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  background: white;
+  border-radius: 10px;
+}
+.form-register h1 {
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2;
+}
+.form-register {
+  padding: 0 40px;
+  box-sizing: border-box;
+}
+.form-register .input {
+  width: 93%;
+  margin-bottom: 5px;
+  font-size: 16px;
+  padding: 10px;
+  border-color: #8e44ad;
+  text-align: left;
+}
+.form-register .btn-login {
+  width: 100%;
+  margin-bottom: 5px;
+  font-size: 16px;
+  padding: 15px;
+  outline: none;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: bold;
+  color: white;
+  background-color: #2980b9;
+  border-style: none;
+  text-align: center;
+  cursor: pointer;
+}
+.form-register p {
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+}
+.btn-register {
+  width: 100%;
+  margin-bottom: 5px;
+  font-size: 16px;
+  padding: 15px;
+  outline: none;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: bold;
+  color: white;
+  background-color: #5ff309;
+  border-style: none;
+  text-align: center;
+  cursor: pointer;
+}
+.err {
+  color: red;
+  bottom: 5px;
+  text-align: end;
+  font-weight: bold;
+}
