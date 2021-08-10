@@ -32,6 +32,7 @@ router.post('/',async (req,res)=>{
                 ListOfBookId : idBook,
                 LoanId:loans.id,
                 MemberId:idMember,
+                returnType:'Perpustakaan',
             })
             Loans.update({status:'kembali'},{where:{id:loans.id}});
             ListOfBooks.update({status:'free',extention:null},{where:{id:idBook}});
@@ -117,6 +118,7 @@ router.get('/Late',async(req,res)=>{
         Returns.create({
             returnDate: new Date(),
             ListOfBookId : loans.ListOfBookId,
+            returnType: 'Dropbox',
             LoanId: id,
             MemberId:loans.MemberId,
         })

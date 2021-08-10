@@ -5,6 +5,10 @@ module.exports = (sequelize,DataTypes)=>{
             type:DataTypes.DATEONLY,
             allowNull:false,
         },
+        returnType :{
+            type:DataTypes.DATEONLY,
+            allowNull:false,
+        },
         
     })
     Returns.associate = (models)=>{

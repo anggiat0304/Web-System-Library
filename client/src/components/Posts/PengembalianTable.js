@@ -16,6 +16,7 @@ function PengembalianTable({posts,loading,title}) {
                     <th>Judul</th>
                     <th>Tanggal Peminjaman</th>
                     <th>Tanggal {title}</th>
+                    <th>Media pengembalian</th>
                 </tr>
             {posts.map((value,key)=>{
                   
@@ -26,6 +27,7 @@ function PengembalianTable({posts,loading,title}) {
                           <td>{value.ListOfBook.Book.title}</td>
                           <td>{value.Loan.loanDate}</td>
                           <td>{value.returnDate}</td>
+                          <td>{value.returnType}</td>
                           </tr>
                   )
               })}           
