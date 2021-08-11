@@ -17,6 +17,7 @@ function PengembalianTableAdmin({posts,loading,title}) {
                     <th>Judul</th>
                     <th>Tanggal Peminjaman</th>
                     <th>Tanggal {title}</th>
+                    <th>Media Pengembalian</th>
                 </tr>
             {posts.map((value,key)=>{
                   const diff = (new Date(value.limitDate) - new Date())/(24*60*60*1000)
@@ -28,6 +29,7 @@ function PengembalianTableAdmin({posts,loading,title}) {
                           <td>{value.ListOfBook.Book.title}</td>
                           <td>{value.Loan.loanDate}</td>
                           <td>{value.returnDate}</td>
+                          <td>{value.returnType}</td>
                           </tr>
                   )
               })}           
