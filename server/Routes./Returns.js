@@ -69,6 +69,7 @@ router.post('/Dropbox',async (req,res)=>{
         const loans = await Loans.findOne({where:{id:id}});
         const listOfBooks = await ListOfBooks.findOne({where:{id:loans.ListOfBookId}})
         const member = await Members.findOne({where:{id:idMember}})
+        const box = await Dropboxs.findOne({where:{id:loans.DropboxId}});
          if(!loans) res.json('tag tidak terdaftar di daftar peminjaman')
         else if(listOfBooks.status=="free") res.json('Buku telah kembali')
         else if(loans.status=="late") res.json('Buku telah terlambat dikembalikan silahkan hubungi admin')
@@ -78,6 +79,7 @@ router.post('/Dropbox',async (req,res)=>{
                 ListOfBookId : loans.ListOfBookId,
                 LoanId: id,
                 MemberId:idMember,
+                returnType:`Dropbox ${box.name}`
             })
             Loans.update({status:'kembali',DropboxId:null},{where:{id:id}});
             ListOfBooks.update({status:'free',extention:null},{where:{id:listOfBooks.id}});

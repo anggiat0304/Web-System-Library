@@ -6,7 +6,7 @@ module.exports = (sequelize,DataTypes)=>{
             allowNull:false,
         },
         returnType :{
-            type:DataTypes.DATEONLY,
+            type:DataTypes.STRING,
             allowNull:false,
         },
         
